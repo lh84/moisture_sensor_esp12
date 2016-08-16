@@ -10,6 +10,7 @@ ALs Stromquelle soll ein 18650 AKku dienen, da dieser über hohe Kapazitäten ve
 
 Das Layout wurde mit [Eagle 7.6][2] erstellt.
 
+![Board](https://github.com/lh84/moisture_sensor_esp12/raw/master/export/test.png)
 
 
 ## bisherige Part-Liste
