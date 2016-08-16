@@ -6,6 +6,12 @@ Dieser Sensor ist noch in Bearbeitung. Es soll dazu dienen, die Bodenfeuchte von
 
 ALs Stromquelle soll ein 18650 AKku dienen, da dieser über hohe Kapazitäten verfügen kann. So kann eine lange Lebensdauer pro Batterie gewährleistet werden. Es wird davon ausgegangen, dass der Sensor bei halbstündiger Messung bis zu 3 Monate arbeiten kann. (Dies muss noch bewiesen werden)
 
+## Board-Layout
+
+Das Layout wurde mit [Eagle 7.6][2] erstellt.
+
+
+
 ## bisherige Part-Liste
 
 Part       Value          Device     Package  Library        Sheet
@@ -34,3 +40,4 @@ Du möchtest mithelfen, dass Design oder die Software zu verbessern? Dann schrei
 
 
 [1]: https://www.mikrocontroller.net/topic/335407
+[2]: https://cadsoft.io/de/
