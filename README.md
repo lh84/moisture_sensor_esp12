@@ -16,7 +16,7 @@ Das Layout wurde mit [Eagle 7.6][2] erstellt.
 ## bisherige Part-Liste
 
 Part | Value | Device | Package | Library | Sheet
-
+-----|-------|--------|---------|---------|-------
 1RX-2TX | PINHD-1X2 | 1X02 | pinhead | 1
 13,3V-2GND | PINHD-1X2 | 1X02 | pinhead | 1
 C1 | 1000µF | CP-SV-E/F | SV-E/F | cap-master | 1
