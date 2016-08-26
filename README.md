@@ -33,8 +33,8 @@ R2 | ca 100k | R-EU_R0603 | R0603 | rcl | 1 |
 R3 | 100 | R-EU_R0603 | R0603 | rcl | 1 | 
 RESET | DTSM-6 | DTSM-6 | DTSM-6 | switch-tact | 1 | 
 VIN | PINHD-1X1 | 1X01 | pinhead | 1 | 
------|-------|--------|---------|---------|-------|-------
-Gesamt
+
+**Gesamt** | 
 
 
 ## Contribute?
