@@ -22,7 +22,7 @@ Part | Value | Device | Package | Library | Sheet | Kosten
 C1 | 1000µF | CP-SV-E/F | SV-E/F | cap-master | 1 | 
 C2 | 10µF | C1206 | 1206 | capsmd | 1 | 
 C4 | 10µF | C1206 | 1206 | capsmd | 1 | 
-ESP | ESP12 | ESP12 | esp8266modules 1 | 
+ESP | ESP12 | ESP12 | esp8266modules 1 | 2 - 3 €
 GND | PINHD-1X1 | 1X01 | pinhead | 1 | 
 IC1 | 74HC14D | 74HC14D | SO14 | 74xx-eu | 1 | 
 IC2 | HT7333 | HT7333 | SOT-89 | holtek2 | 1 | 
@@ -33,9 +33,8 @@ R2 | ca 100k | R-EU_R0603 | R0603 | rcl | 1 |
 R3 | 100 | R-EU_R0603 | R0603 | rcl | 1 | 
 RESET | DTSM-6 | DTSM-6 | DTSM-6 | switch-tact | 1 | 
 VIN | PINHD-1X1 | 1X01 | pinhead | 1 | 
-
-## Kosten pro Sensor
-
+-----|-------|--------|---------|---------|-------|-------
+Gesamt
 
 
 ## Contribute?
