@@ -22,7 +22,7 @@ Part | Value | Device | Package | Library | Sheet | Kosten
 C1 | 1000µF | CP-SV-E/F | SV-E/F | cap-master | 1 | 
 C2 | 10µF | C1206 | 1206 | capsmd | 1 | 
 C4 | 10µF | C1206 | 1206 | capsmd | 1 | 
-ESP | ESP12 | ESP12 | esp8266modules | 1 | 2 - 3 €
+ESP | ESP12 | ESP12 | esp8266modules | | 1 | 2 - 3 €
 GND | PINHD-1X1 | 1X01 | pinhead | | 1 | 
 IC1 | 74HC14D | 74HC14D | SO14 | 74xx-eu | 1 | 
 IC2 | HT7333 | HT7333 | SOT-89 | holtek2 | 1 | 
