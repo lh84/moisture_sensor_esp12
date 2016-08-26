@@ -98,7 +98,7 @@ void setup(void)
   //WiFiManager wifiManager;
   //wifiManager.autoConnect("esp-lars-1", "123456");
   wifi.setTimeout(120); // so if it restarts and router is not yet online, it keeps rebooting and retrying to connect
-  if (!wifi.autoConnect("layv", "7e%f52%wxh%txr8@")) {
+  if (!wifi.autoConnect("SSID", "password")) {
     DEBUG_PRINT("timeout - going to sleep");
     DEBUG_PRINT(millis() - startMills);
     delay(200);
@@ -173,8 +173,8 @@ void saveData2ThingsSpeak()
   digitalWrite(LED, LOW);
   digitalWrite(LED, HIGH);
 
-  String channel_124665_key = "KWSOPYZFUZTS9F9N";
-  String channel_124422_key = "EQUNYB3NUC9GHS1K";
+  String channel_124665_key = "APIKEY1";
+  String channel_124422_key = "APIKEY2";
   String tsServer = "api.thingspeak.com";
   String tsServerSIP = "184.106.153.149";  // statische Addresse!
   String tsAPIKey = channel_124422_key;
