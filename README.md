@@ -10,7 +10,7 @@ ALs Stromquelle soll ein 18650 AKku dienen, da dieser über hohe Kapazitäten ve
 
 Das Layout wurde mit [Eagle 7.6][2] erstellt.
 
-![Board](https://github.com/lh84/moisture_sensor_esp12/raw/master/export/test.png)
+![Board](https://photos-1.dropbox.com/t/2/AADOA1e4VQd5eUCs93mGhinKiGulgSp_oUd_OjGrpmYaAQ/12/3298798/png/32x32/1/_/1/2/sensor.png/EM2CwAIYw7ANIAcoBw/Vfk2gaGR3yMw9X5-RJR_kdEWoqbkhUDixQDstsj0Vyw?size_mode=5)
 
 
 ## bisherige Part-Liste
@@ -36,7 +36,7 @@ VIN                       PINHD-1X1  1X01     pinhead        1
 
 ## Contribute?
 
-Du möchtest mithelfen, dass Design oder die Software zu verbessern? Dann schreib mir oder sende ein Request.
+Du hast eine Idee, wie dieser Sensor besser gestaltet werden kann? Dann schreib mir oder sende ein Request.
 
 
 
