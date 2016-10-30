@@ -8,7 +8,7 @@ Als Stromquelle soll ein 18650 Akku dienen, da dieser über hohe Kapazitäten ve
 
 ## Board-Layout
 
-Das Layout wurde mit [Eagle 7.7][2] erstellt.
+Das Layout wurde mit [Eagle 7.7]<sup>[2]</sup> erstellt.
 
 ![Board](https://raw.githubusercontent.com/lh84/moisture_sensor_esp12/master/sensor.png)
 
