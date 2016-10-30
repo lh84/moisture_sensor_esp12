@@ -1,6 +1,6 @@
 # Bodenfeuchte Sensor mit einem ESP12 (Wifi/Wlan)
 
-Dieser Sensor ist noch in Bearbeitung. Es soll dazu dienen, die Bodenfeuchte von Pflanzen zu messen und per WLan an einen Server zur Datenauswertung zu senden. Für das Sender per Wlan wird ein ESP8266 Modul verwendet. Als Sensor kommt eine kapazitive Messmethode zum Einsatz. Das  Grundgerüst des Sensors basiert auf den [Gies-O-Mat von Fred Ram][1].
+Dieser Sensor ist noch in Bearbeitung. Es soll dazu dienen, die Bodenfeuchte von Pflanzen zu messen und per WLan an einen Server zur Datenauswertung zu senden. Für das Sender per Wlan wird ein ESP8266 Modul verwendet. Als Sensor kommt eine kapazitive Messmethode zum Einsatz. Das  Grundgerüst des Sensors basiert auf den [Gies-O-Mat von Fred Ram]<sup>[1]</sup>.
 
 ## Stromquelle
 
@@ -8,7 +8,7 @@ Als Stromquelle soll ein 18650 Akku dienen, da dieser über hohe Kapazitäten ve
 
 ## Board-Layout
 
-Das Layout wurde mit [Eagle 7.7]<sup>[2]</sup> erstellt.
+Das Layout wurde mit Eagle 7.7<sup>[2]</sup> erstellt.
 
 ![Board](https://raw.githubusercontent.com/lh84/moisture_sensor_esp12/master/sensor.png)
 
@@ -39,7 +39,7 @@ VIN | PINHD-1X1 | 1X01 | pinhead | | 1 |
 
 ## Software
 
-Bisher habe ich die Software noch nicht fertiggestellt. Der bisherige Code ist nur ein erster Test gewesen und basiert auf dem Code von Zentris[3]. Danke dafür. Er versucht in seinem Projekt Erdfeuchtemessung, Lösungen zu finden. Er selbst schreibt über sein Projekt: "Dieses Repository sammelt Ideen und mögliche Realisierungsbeispiele über die Art und Weise, wie man reproduzierbar und dauerhaft die Erdfeuchte bestimmen kann. Der Fokus liegt dabei auf der Bestimmung des konkreten Bewässerungszeitpunktes und nicht auf eine prozentuale Ermittlung der Erdfeuchte."[3]
+Bisher habe ich die Software noch nicht fertiggestellt. Der bisherige Code ist nur ein erster Test gewesen und basiert auf dem Code von Zentris[3]. Danke dafür. Er versucht in seinem Projekt Erdfeuchtemessung, Lösungen zu finden. Er selbst schreibt über sein Projekt: "Dieses Repository sammelt Ideen und mögliche Realisierungsbeispiele über die Art und Weise, wie man reproduzierbar und dauerhaft die Erdfeuchte bestimmen kann. Der Fokus liegt dabei auf der Bestimmung des konkreten Bewässerungszeitpunktes und nicht auf eine prozentuale Ermittlung der Erdfeuchte."<sup>[3]</sup>
 
 ## Contribute?
 
