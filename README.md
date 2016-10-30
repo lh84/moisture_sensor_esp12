@@ -12,6 +12,9 @@ Das Layout wurde mit [Eagle 7.6][2] erstellt.
 
 ![Board](https://raw.githubusercontent.com/lh84/moisture_sensor_esp12/master/sensor.png)
 
+Erster Versuch, das Board als 3D Modell mittels ecad.io darzustellen:
+![Board 3d](https://github.com/lh84/moisture_sensor_esp12/blob/master/export/ecad-io%20.png?raw=true) 
+
 
 ## bisherige Part-Liste
 
