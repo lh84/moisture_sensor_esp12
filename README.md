@@ -4,11 +4,11 @@ Dieser Sensor ist noch in Bearbeitung. Es soll dazu dienen, die Bodenfeuchte von
 
 ## Stromquelle
 
-ALs Stromquelle soll ein 18650 AKku dienen, da dieser über hohe Kapazitäten verfügen kann. So kann eine lange Lebensdauer pro Batterie gewährleistet werden. Es wird davon ausgegangen, dass der Sensor bei halbstündiger Messung bis zu 3 Monate arbeiten kann. (Dies muss noch bewiesen werden)
+Als Stromquelle soll ein 18650 Akku dienen, da dieser über hohe Kapazitäten verfügen kann. So kann eine lange Lebensdauer pro Batterie gewährleistet werden. Es wird davon ausgegangen, dass der Sensor bei halbstündiger Messung bis zu 3 Monate arbeiten kann. (Dies muss noch bewiesen werden)
 
 ## Board-Layout
 
-Das Layout wurde mit [Eagle 7.6][2] erstellt.
+Das Layout wurde mit [Eagle 7.7][2] erstellt.
 
 ![Board](https://raw.githubusercontent.com/lh84/moisture_sensor_esp12/master/sensor.png)
 
@@ -37,7 +37,9 @@ R3 | 100 | R-EU_R0603 | R0603 | rcl | 1 |
 RESET | DTSM-6 | DTSM-6 | DTSM-6 | switch-tact | 1 | 
 VIN | PINHD-1X1 | 1X01 | pinhead | | 1 | 
 
+## Software
 
+Bisher habe ich die Software noch nicht fertiggestellt. Der bisherige Code ist nur ein erster Test gewesen und basiert auf dem Code von Zentris[3]. Danke dafür. Er versucht in seinem Projekt Erdfeuchtemessung, Lösungen zu finden. Er selbst schreibt über sein Projekt: "Dieses Repository sammelt Ideen und mögliche Realisierungsbeispiele über die Art und Weise, wie man reproduzierbar und dauerhaft die Erdfeuchte bestimmen kann. Der Fokus liegt dabei auf der Bestimmung des konkreten Bewässerungszeitpunktes und nicht auf eine prozentuale Ermittlung der Erdfeuchte."[3]
 
 ## Contribute?
 
@@ -53,3 +55,4 @@ Du hast eine Idee, wie dieser Sensor besser gestaltet werden kann? Dann schreib 
 
 [1]: https://www.mikrocontroller.net/topic/335407
 [2]: https://cadsoft.io/de/
+[3]: https://github.com/Zentris/erdfeuchtemessung
