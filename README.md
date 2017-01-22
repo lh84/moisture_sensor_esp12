@@ -25,7 +25,7 @@ see ![bom.txt](https://github.com/lh84/moisture_sensor_esp12/blob/master/bom.txt
 
 ## Software
 
-As software you can use the source code von Zentris<sup>[3]</sup>. It works pretty good.
+As software you can use the source code von Zentris<sup>[3]</sup>. Version 2.2 works pretty good.
 
 ## Testing
 

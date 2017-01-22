@@ -14,14 +14,14 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -40,7 +40,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -637,7 +637,7 @@ design rules under a new name.</description>
 </element>
 <element name="PROG" library="switch-tact" package="DTSM-6" value="DTSM-6" x="21.54" y="26.27" rot="R90"/>
 <element name="RESET" library="switch-tact" package="DTSM-6" value="DTSM-6" x="9.27" y="26.27" rot="R90"/>
-<element name="3,3V-2GND" library="pinhead" package="1X02" value="" x="20.32" y="5.08" rot="R180"/>
+<element name="GND-3.3V" library="pinhead" package="1X02" value="" x="20.32" y="5.08" rot="R180"/>
 <element name="LSP1" library="solpad" package="LSP11" value="LSP11" x="73.66" y="21.59"/>
 <element name="LSP2" library="solpad" package="LSP11" value="LSP11" x="73.66" y="11.43"/>
 <element name="R1TRIM" library="rcl" package="RTRIM3374" value="500K" x="53.34" y="8.89" rot="R90"/>
@@ -670,7 +670,7 @@ design rules under a new name.</description>
 <contactref element="PROG" pad="1"/>
 <contactref element="RESET" pad="1"/>
 <contactref element="PROG" pad="2"/>
-<contactref element="3,3V-2GND" pad="2"/>
+<contactref element="GND-3.3V" pad="2"/>
 <wire x1="9.43155625" y1="21.46124375" x2="10.0547125" y2="21.2380875" width="0.508" layer="1"/>
 <wire x1="9.43155625" y1="21.46124375" x2="8.26221875" y2="21.9456" width="0.508" layer="1" curve="45"/>
 <wire x1="8.26221875" y1="21.9456" x2="7.3152" y2="21.9456" width="0.508" layer="1"/>
@@ -822,7 +822,7 @@ design rules under a new name.</description>
 <contactref element="C1" pad="+"/>
 <contactref element="ESP" pad="GPIO2"/>
 <contactref element="ESP" pad="CH_PD"/>
-<contactref element="3,3V-2GND" pad="1"/>
+<contactref element="GND-3.3V" pad="1"/>
 <wire x1="15.0368" y1="13.0048" x2="10.26545" y2="17.77615" width="0.508" layer="1"/>
 <wire x1="10.26545" y1="17.77615" x2="10.010871875" y2="17.8816" width="0.508" layer="1" curve="45.000497"/>
 <wire x1="10.010871875" y1="17.8816" x2="9.3472" y2="17.8816" width="0.508" layer="1"/>

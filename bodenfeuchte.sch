@@ -7517,7 +7517,7 @@ drill 1.1 mm</description>
 <part name="C1" library="cap-master" deviceset="CP-" device="SV-E/F" value="1000µF"/>
 <part name="PROG" library="switch-tact" deviceset="DTSM-6" device=""/>
 <part name="RESET" library="switch-tact" deviceset="DTSM-6" device=""/>
-<part name="3,3V-2GND" library="pinhead" deviceset="PINHD-1X2" device=""/>
+<part name="GND-3.3V" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="LSP1" library="solpad" deviceset="LSP11" device=""/>
 <part name="LSP2" library="solpad" deviceset="LSP11" device=""/>
 <part name="R1TRIM" library="rcl" deviceset="R-TRIMM" device="3374" value="500K"/>
@@ -7549,7 +7549,7 @@ drill 1.1 mm</description>
 <instance part="C1" gate="G$1" x="111.76" y="68.58" rot="R90"/>
 <instance part="PROG" gate="G$1" x="185.42" y="78.74"/>
 <instance part="RESET" gate="G$1" x="101.6" y="88.9"/>
-<instance part="3,3V-2GND" gate="G$1" x="91.44" y="48.26" rot="R270"/>
+<instance part="GND-3.3V" gate="G$1" x="91.44" y="48.26" rot="R270"/>
 <instance part="LSP1" gate="1" x="132.08" y="144.78" rot="R270"/>
 <instance part="LSP2" gate="1" x="132.08" y="134.62" rot="R270"/>
 <instance part="R1TRIM" gate="G$1" x="68.58" y="134.62" rot="R270"/>
@@ -7621,7 +7621,7 @@ drill 1.1 mm</description>
 <wire x1="200.66" y1="68.58" x2="200.66" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="P" pin="GND"/>
 <wire x1="200.66" y1="99.06" x2="193.04" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="3,3V-2GND" gate="G$1" pin="2"/>
+<pinref part="GND-3.3V" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="60.96" x2="91.44" y2="50.8" width="0.1524" layer="91"/>
 <junction x="91.44" y="60.96"/>
 </segment>
@@ -7688,7 +7688,7 @@ drill 1.1 mm</description>
 <wire x1="111.76" y1="86.36" x2="111.76" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="86.36" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
 <junction x="111.76" y="86.36"/>
-<pinref part="3,3V-2GND" gate="G$1" pin="1"/>
+<pinref part="GND-3.3V" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="73.66" x2="93.98" y2="50.8" width="0.1524" layer="91"/>
 <junction x="93.98" y="73.66"/>
 </segment>
