@@ -1,5 +1,3 @@
-Stückliste exportiert aus /Users/Lars/Dropbox/coole bauprojekte/sensor/bodenfeuchte.sch am 22.01.17 16:38
-
 Qty Value   Device      Package   Parts              Description                  
 2           PINHD-1X1   1X01      GND, VIN           PIN HEADER                   
 2           PINHD-1X2   1X02      1RX-2TX, 3,3V-2GND PIN HEADER                   

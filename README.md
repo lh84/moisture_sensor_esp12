@@ -21,7 +21,7 @@ GPIO5 is now used to control vin in smitt trigger to use less power when sensor 
 
 ## Part-List
 
-see ![bom.txt](https://github.com/lh84/moisture_sensor_esp12/blob/master/bom.txt) 
+see ![bom.txt](https://github.com/lh84/moisture_sensor_esp12/blob/master/bom.txt?raw=true) 
 
 ## Software
 
