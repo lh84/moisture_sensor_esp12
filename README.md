@@ -1,3 +1,5 @@
+V 0.9
+
 # Bodenfeuchte Sensor mit einem ESP12 (Wifi/Wlan)
 
 Dieser Sensor ist noch in Bearbeitung. Es soll dazu dienen, die Bodenfeuchte von Pflanzen zu messen und per WLan an einen Server zur Datenauswertung zu senden. Für das Sender per Wlan wird ein ESP8266 Modul verwendet. Als Sensor kommt eine kapazitive Messmethode zum Einsatz. Das  Grundgerüst des Sensors basiert auf den [Gies-O-Mat von Fred Ram]<sup>[1]</sup>.
@@ -8,38 +10,32 @@ Als Stromquelle soll ein 18650 Akku dienen, da dieser über hohe Kapazitäten ve
 
 ## Board-Layout
 
-Das Layout wurde mit Eagle 7.7<sup>[2]</sup> erstellt.
+Layout was made with Eagle 7.7<sup>[2]</sup>.
 
-![Board](https://raw.githubusercontent.com/lh84/moisture_sensor_esp12/master/sensor.png)
+![Board](https://raw.githubusercontent.com/lh84/moisture_sensor_esp12/master/images/sensor.png)
 
-Erster Versuch, das Board als 3D Modell mittels ecad.io darzustellen:
+First try to model a case for the board in 3d
 ![Board 3d](https://github.com/lh84/moisture_sensor_esp12/blob/master/export/ecad-io%20.png?raw=true) 
 
+## Part-List
 
-## bisherige Part-Liste
-
-Part | Value | Device | Package | Library | Sheet | Kosten
------|-------|--------|---------|---------|-------|-------
-1RX-2TX | PINHD-1X2 | 1X02 | pinhead | | 1 | 
-13,3V-2GND | PINHD-1X2 | 1X02 | pinhead | | 1 | 
-C1 | 1000µF | CP-SV-E/F | SV-E/F | cap-master | 1 | 
-C2 | 10µF | C1206 | 1206 | capsmd | 1 | 
-C4 | 10µF | C1206 | 1206 | capsmd | 1 | 
-ESP | ESP12 | ESP12 | esp8266modules | | 1 | 2 - 3 €
-GND | PINHD-1X1 | 1X01 | pinhead | | 1 | 
-IC1 | 74HC14D | 74HC14D | SO14 | 74xx-eu | 1 | 
-IC2 | HT7333 | HT7333 | SOT-89 | holtek2 | 1 | 
-PAD1 | 2,54/1,0 | 2,54/1,0 | wirepad | | 1 | 
-PAD2 | 2,54/1,0 | 2,54/1,0 | wirepad | | 1 | 
-PROG | DTSM-6 | DTSM-6 | DTSM-6 | switch-tact | 1 | 
-R2 | ca 100k | R-EU_R0603 | R0603 | rcl | 1 | 
-R3 | 100 | R-EU_R0603 | R0603 | rcl | 1 | 
-RESET | DTSM-6 | DTSM-6 | DTSM-6 | switch-tact | 1 | 
-VIN | PINHD-1X1 | 1X01 | pinhead | | 1 | 
+see ![bom.txt](https://github.com/lh84/moisture_sensor_esp12/blob/master/bom.txt) 
 
 ## Software
 
-Bisher habe ich die Software noch nicht fertiggestellt. Der bisherige Code ist nur ein erster Test gewesen und basiert auf dem Code von Zentris[3]. Danke dafür. Er versucht in seinem Projekt Erdfeuchtemessung, Lösungen zu finden. Er selbst schreibt über sein Projekt: "Dieses Repository sammelt Ideen und mögliche Realisierungsbeispiele über die Art und Weise, wie man reproduzierbar und dauerhaft die Erdfeuchte bestimmen kann. Der Fokus liegt dabei auf der Bestimmung des konkreten Bewässerungszeitpunktes und nicht auf eine prozentuale Ermittlung der Erdfeuchte."<sup>[3]</sup>
+As software you can use the source code von Zentris<sup>[3]</sup>. It works pretty good.
+
+## Testing
+
+First test at 20/01/17 was pretty good with this new designed board.
+
+## Prototypes
+
+I made a first prototype of the new design with etching at home. Looks und works pretty good for the first test.
+![Board 3d](https://github.com/lh84/moisture_sensor_esp12/blob/master/images/first-prototype.jpg?raw=true) 
+![Board 3d](https://github.com/lh84/moisture_sensor_esp12/blob/master/images/first-prototype2.jpg?raw=true) 
+![Board 3d](https://github.com/lh84/moisture_sensor_esp12/blob/master/images/first-prototype3.jpg?raw=true) 
+
 
 ## Contribute?
 
@@ -47,11 +43,11 @@ Du hast eine Idee, wie dieser Sensor besser gestaltet werden kann? Dann schreib 
 
 ## TODO
 
-- [ ] 3D Gehäuse entwerfen und testen
-- [ ] Software fortschreiben, testen
-- [ ] Sensor Laufzeit testen
-- [ ] Hardware Design überprüfen, testen
-- [ ] Platinen selbst herstellen
+- [ ] Model case for board (fusion 360)
+- [ ] check runtime with 18650 battry
+- [x] check hardware (first prototype)
+- [ ] test hardware in outdoor environment
+- [X] produce platines (first prototype)
 
 [1]: https://www.mikrocontroller.net/topic/335407
 [2]: https://cadsoft.io/de/

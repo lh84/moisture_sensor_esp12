@@ -1,25 +1,25 @@
 EAGLE AutoRouter Statistics:
 
-Job           : /Users/Lars/Dropbox/coole bauprojekte/sensor/bodenfeuchte.brd
+Job           : /Users/lars/Dropbox/coole bauprojekte/sensor/bodenfeuchte.brd
 
-Start at      : 21:54:59 (12.07.16)
-End at        : 21:55:02 (12.07.16)
-Elapsed time  : 00:00:01
+Start at      : 22:57:24 (18.01.17)
+End at        : 22:57:32 (18.01.17)
+Elapsed time  : 00:00:07
 
-Signals       :    14   RoutingGrid: 19.685 mil  Layers: 1
+Signals       :    14   RoutingGrid: 16 mil  Layers: 1
 Connections   :    38   predefined:  0 ( 0 Vias )
 
-Router memory :   103008
+Router memory :   144144
 
-Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4
+Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8 Optimize9Optimize10Optimize11Optimize12
 
-Time per pass     :  00:00:00  00:00:01  00:00:00  00:00:00  00:00:00
-Number of Ripups  :        32         0         0         0         0
-max. Level        :         3         0         0         0         0
-max. Total        :        13         0         0         0         0
+Time per pass     :  00:00:03  00:00:03  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:01  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00
+Number of Ripups  :         0        97         0         0         0         0         0         0         0         0         0         0         0         0
+max. Level        :         0         5         0         0         0         0         0         0         0         0         0         0         0         0
+max. Total        :         0        16         0         0         0         0         0         0         0         0         0         0         0         0
 
-Routed            :        38        38        38        38        38
-Vias              :         0         0         0         0         0
-Resolution        :   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+Routed            :        20        38        38        38        38        38        38        38        38        38        38        38        38        38
+Vias              :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
+Resolution        :    52.6 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
 Final             : 100.0% beendet
