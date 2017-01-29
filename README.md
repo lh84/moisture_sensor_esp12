@@ -38,6 +38,13 @@ I made a first prototype of the new design with etching at home. Looks und works
 ![Board 3d](https://github.com/lh84/moisture_sensor_esp12/blob/master/images/first-prototype2.jpg?raw=true) 
 ![Board 3d](https://github.com/lh84/moisture_sensor_esp12/blob/master/images/first-prototype3.jpg?raw=true) 
 
+## First tests with prototype
+
+You can see the data from the sensor monitored in thingspeak:
+
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/210863/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line"></iframe>
+
+
 
 ## Contribute?
 
