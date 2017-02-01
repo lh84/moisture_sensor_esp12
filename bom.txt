@@ -1,6 +1,5 @@
-Qty Value   Device      Package   Parts              Description                  
-2           PINHD-1X1   1X01      GND, VIN           PIN HEADER                   
-2           PINHD-1X2   1X02      1RX-2TX, 3,3V-2GND PIN HEADER                   
+Qty Value   Device      Package   Parts              Description                              Price           Link                 
+2           PINHD-1X2   1X02      1RX-2TX, 3,3V-2GND PIN HEADER                               0,71€/10pc      https://www.reichelt.de/Buchsenleisten/MPE-115-1-010/3/index.html?ACTION=3&LA=2&ARTICLE=119955&GROUPID=7435&artnr=MPE+115-1-010&SEARCH=%252A
 1   100     R-EU_R0603  R0603     R3                 RESISTOR, European symbol    						0,02€/pc 				https://www.reichelt.de/SMD-0603-von-0-bis-910-Ohm/RND-0603-1-100/3/index.html?ACTION=3&LA=5&ARTICLE=183013&GROUPID=7967&artnr=RND+0603+1+100
 1   1000µF  CP-SV-E/F   SV-E/F    C1                 Big POLARIZED CAP                				0,32€/pc				https://www.reichelt.de/Elkos-SMD-Low-ESR-105-C/VF-1000-6-3-P-F/3/index.html?ACTION=3&LA=5&ARTICLE=109181&GROUPID=4001&artnr=VF+1000%2F6%2C3+P-F
 2   10µF    C1206       1206      C2, C4             Small SMD Cap														0,07€/pc				https://www.reichelt.de/Vielschicht-SMD-G1206/X7R-G1206-10-16/3/index.html?ACTION=3&LA=5&ARTICLE=89740&GROUPID=8049&artnr=X7R-G1206+10%2F16                             
@@ -8,11 +7,17 @@ Qty Value   Device      Package   Parts              Description
 1   74HC14D 74HC14D     SO14      IC1                Hex schmitt trigger INVERTER 						0,18€/pc				https://www.reichelt.de/ICs-74HC-SMD/SMD-HC-14/3/index.html?ACTION=3&GROUPID=2931&ARTICLE=18640&SEARCH=74HC14&OFFSET=16&
 2   DTSM-6  DTSM-6      DTSM-6    PROG, RESET        Push button															0,24€/pc				https://www.reichelt.de/Kurzhubtaster/TASTER-9314/3/index.html?ACTION=3&GROUPID=7587&ARTICLE=44510&OFFSET=500&                             
 1   ESP12   ESP12       ESP12     ESP                ESP8266 Wifi module 12        						2,54€/pc			  https://www.aliexpress.com/item/1-pcs-x-ESP-12F-ESP8266-ESP-12F-Remote-Serial-Port-WIFI-Transceiver-Wireless-Module-UNO/32581210212.html
-1   HT7333  HT7333      SOT-89    IC2                Step Down Module (Ultra low current 4µA) 1,18€ / 10pc 		https://www.aliexpress.com/item/10PCS-HT7333-A-SOT89-HT7333-1-SOT-89-HT7333A-1-7333-1-SMD-7333A-1-new/32531141419.html                      
+1   HT7333  HT7333      SOT-89    IC2                Step Down Module (Ultra low current 4µA) 1,18€ /10pc 		https://www.aliexpress.com/item/10PCS-HT7333-A-SOT89-HT7333-1-SOT-89-HT7333A-1-7333-1-SMD-7333A-1-new/32531141419.html                      
 2   LSP11   LSP11       LSP11     LSP1, LSP2         SOLDER PAD   
-
-Sum costs:
-
 
 Reichelt Order List:
 https://www.reichelt.de/my/1310317
+
+Sum costs:
+5,30€ + shipping
+
+Platine Costs:
+EPCU 200X100    1,75€     https://www.reichelt.de/Platinenzuschnitte/EPCU-200X100/3/index.html?ACTION=3&LA=2&ARTICLE=7408&GROUPID=7783&artnr=EPCU+200X100&SEARCH=%252A
+
+3d case costs:
+
