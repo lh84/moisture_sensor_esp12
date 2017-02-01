@@ -21,7 +21,9 @@ GPIO5 is now used to control vin in smitt trigger to use less power when sensor 
 
 ## Part-List
 
-see ![bom.txt](https://github.com/lh84/moisture_sensor_esp12/blob/master/bom.txt?raw=true) 
+see in file: https://github.com/lh84/moisture_sensor_esp12/blob/master/bom.txt
+
+
 
 ## Software
 
@@ -40,10 +42,8 @@ I made a first prototype of the new design with etching at home. Looks und works
 
 ## First tests with prototype
 
-You can see the data from the sensor monitored in thingspeak:
-
-<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/210863/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line"></iframe>
-
+You can see the live data from my first sensor prototype monitored in thingspeak:
+https://thingspeak.com/channels/210863/charts/1?width=1000&height=600&bgcolor=%23ffffff&color=%23d62020&results=240&type=line&update=15&timescale=240
 
 
 ## Contribute?
