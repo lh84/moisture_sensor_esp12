@@ -1,4 +1,4 @@
-V 0.9
+REV 1.0
 
 # Moisture Sensor with an ESP8266 12F (Wifi/Wlan)
 
@@ -39,6 +39,7 @@ I made a first prototype of the new design with etching at home. Looks und works
 ![Board 3d](https://github.com/lh84/moisture_sensor_esp12/blob/master/images/v1/first-prototype.jpg?raw=true) 
 ![Board 3d](https://github.com/lh84/moisture_sensor_esp12/blob/master/images/v1/first-prototype2.jpg?raw=true) 
 ![Board 3d](https://github.com/lh84/moisture_sensor_esp12/blob/master/images/v1/first-prototype3.jpg?raw=true) 
+![Board 3d](https://github.com/lh84/moisture_sensor_esp12/blob/master/images/v1/sensor_in_soil.jpeg?raw=true) 
 
 ## First tests with prototype
 
