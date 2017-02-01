@@ -7739,6 +7739,9 @@ drill 1.1 mm</description>
 <pinref part="ESP" gate="G$1" pin="RESET"/>
 <wire x1="104.14" y1="93.98" x2="116.84" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="93.98" x2="116.84" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="ESP" gate="G$1" pin="GPIO16"/>
+<wire x1="116.84" y1="83.82" x2="116.84" y2="91.44" width="0.1524" layer="91"/>
+<junction x="116.84" y="91.44"/>
 </segment>
 </net>
 <net name="N$7" class="0">
