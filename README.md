@@ -1,33 +1,33 @@
 V 0.9
 
-# Bodenfeuchte Sensor mit einem ESP12 (Wifi/Wlan)
+# Moisture Sensor with an ESP8266 12F (Wifi/Wlan)
 
-Dieser Sensor ist noch in Bearbeitung. Es soll dazu dienen, die Bodenfeuchte von Pflanzen zu messen und per WLan an einen Server zur Datenauswertung zu senden. Für das Sender per Wlan wird ein ESP8266 Modul verwendet. Als Sensor kommt eine kapazitive Messmethode zum Einsatz. Das  Grundgerüst des Sensors basiert auf den [Gies-O-Mat von Fred Ram]<sup>[1]</sup>.
+This project is still work in progress!
 
-## Stromquelle
+This sensor is intended to measure the soil moisture of plants and to send them by WIFI to a server for data evaluation. An ESP8266 module is used for the sender to send data over the air. A capacitive measuring method is used as a sensor to get moisture values. The basic framework of the sensor is based on the [Gies-O-Mat von Fred Ram]<sup>[1]</sup>.
 
-Als Stromquelle soll ein 18650 Akku dienen, da dieser über hohe Kapazitäten verfügen kann. So kann eine lange Lebensdauer pro Batterie gewährleistet werden. Es wird davon ausgegangen, dass der Sensor bei halbstündiger Messung bis zu 3 Monate arbeiten kann. (Dies muss noch bewiesen werden)
+## power source
+
+A 18650 battery is to be used as power source, as this can have high capacities. A long life per battery can be guaranteed. It is assumed that the sensor can operate for up to 3 months at half-hour measurement - This must still be proven!
 
 ## Board-Layout
 
 Layout was made with Eagle 7.7<sup>[2]</sup>.
 
-![Board](https://raw.githubusercontent.com/lh84/moisture_sensor_esp12/master/images/sensor.png)
+![Board](https://raw.githubusercontent.com/lh84/moisture_sensor_esp12/master/images/v1/sensor.png)
 
 First try to model a case for the board in 3d
 ![Board 3d](https://github.com/lh84/moisture_sensor_esp12/blob/master/export/ecad-io%20.png?raw=true) 
 
-GPIO5 is now used to control vin in smitt trigger to use less power when sensor is not measuring.
+GPIO5 is now used to control Vin in smitt trigger to use less power when sensor is not measuring.
 
 ## Part-List
 
 see in file: https://github.com/lh84/moisture_sensor_esp12/blob/master/bom.txt
 
-
-
 ## Software
 
-As software you can use the source code von Zentris<sup>[3]</sup>. Version 2.2 works pretty good.
+As software you can use the source code von Zentris<sup>[3]</sup>. Version 2.2 works pretty good with some small changes.
 
 ## Testing
 
@@ -36,9 +36,9 @@ First test at 20/01/17 was pretty good with this new designed board.
 ## Prototypes
 
 I made a first prototype of the new design with etching at home. Looks und works pretty good for the first test.
-![Board 3d](https://github.com/lh84/moisture_sensor_esp12/blob/master/images/first-prototype.jpg?raw=true) 
-![Board 3d](https://github.com/lh84/moisture_sensor_esp12/blob/master/images/first-prototype2.jpg?raw=true) 
-![Board 3d](https://github.com/lh84/moisture_sensor_esp12/blob/master/images/first-prototype3.jpg?raw=true) 
+![Board 3d](https://github.com/lh84/moisture_sensor_esp12/blob/master/images/v1/first-prototype.jpg?raw=true) 
+![Board 3d](https://github.com/lh84/moisture_sensor_esp12/blob/master/images/v1/first-prototype2.jpg?raw=true) 
+![Board 3d](https://github.com/lh84/moisture_sensor_esp12/blob/master/images/v1/first-prototype3.jpg?raw=true) 
 
 ## First tests with prototype
 
@@ -48,7 +48,7 @@ https://thingspeak.com/channels/210863/charts/1?width=1000&height=600&bgcolor=%2
 
 ## Contribute?
 
-Du hast eine Idee, wie dieser Sensor besser gestaltet werden kann? Dann schreib mir oder sende ein Request.
+You have an idea how this sensor can be designed better? Then write me or send a request.
 
 ## TODO
 
