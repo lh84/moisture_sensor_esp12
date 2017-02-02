@@ -74,12 +74,17 @@ https://thingspeak.com/channels/210863/charts/1?width=1000&height=600&bgcolor=%2
 You have an idea how this sensor can be designed better? Then write me or send a request.
 
 ## TODO
-
 - [ ] Model case for board (fusion 360)
+- [ ] Add battery monitoring with voltage devider (http://www.esp8266-projects.com/2015/03/internal-adc-esp8266.html)
+
+## In Progress
 - [ ] check runtime with 18650 battry
-- [x] check hardware (first prototype)
 - [ ] test hardware in outdoor environment
-- [X] produce platines (first prototype)
+
+## Done
+- [x] build first prototype
+- [x] check hardware (first prototype)
+
 
 [1]: https://www.mikrocontroller.net/topic/335407
 [2]: https://cadsoft.io/de/
