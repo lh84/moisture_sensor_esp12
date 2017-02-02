@@ -17,7 +17,7 @@ Layout was made with Eagle 7.7<sup>[2]</sup>.
 ![Board](https://raw.githubusercontent.com/lh84/moisture_sensor_esp12/master/images/v1/sensor.png)
 
 First try to model a case for the board in 3d
-![Board 3d](https://github.com/lh84/moisture_sensor_esp12/blob/master/export/ecad-io%20.png?raw=true) 
+<img src="https://github.com/lh84/moisture_sensor_esp12/blob/master/export/ecad-io%20.png?raw=true" width="250">
 
 GPIO5 is now used to control Vin in smitt trigger to use less power when sensor is not measuring.
 
@@ -36,10 +36,11 @@ First test at 20/01/17 was pretty good with this new designed board.
 ## Prototypes
 
 I made a first prototype of the new design with etching at home. Looks und works pretty good for the first test.
-![Board 3d](https://github.com/lh84/moisture_sensor_esp12/blob/master/images/v1/first-prototype.jpg?raw=true) 
-![Board 3d](https://github.com/lh84/moisture_sensor_esp12/blob/master/images/v1/first-prototype2.jpg?raw=true) 
-![Board 3d](https://github.com/lh84/moisture_sensor_esp12/blob/master/images/v1/first-prototype3.jpg?raw=true) 
-![Board 3d](https://github.com/lh84/moisture_sensor_esp12/blob/master/images/v1/sensor_in_soil.jpeg?raw=true) 
+
+<img src="https://github.com/lh84/moisture_sensor_esp12/blob/master/images/v1/first-prototype.jpg?raw=true" width="250">
+<img src="https://github.com/lh84/moisture_sensor_esp12/blob/master/images/v1/first-prototype2.jpg?raw=true" width="250">
+<img src="https://github.com/lh84/moisture_sensor_esp12/blob/master/images/v1/first-prototype3.jpg?raw=true" width="250">
+<img src="https://github.com/lh84/moisture_sensor_esp12/blob/master/images/v1/sensor_in_soil.jpeg?raw=true" width="250">
 
 ## First tests with prototype
 
