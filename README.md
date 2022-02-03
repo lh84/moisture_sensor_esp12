@@ -77,13 +77,11 @@ You have an idea how this sensor can be designed better? Then write me or send a
 - [ ] Model case for board (fusion 360)
 - [ ] Add battery monitoring with voltage devider (http://www.esp8266-projects.com/2015/03/internal-adc-esp8266.html)
 
-## In Progress
-- [ ] check runtime with 18650 battry
-- [ ] test hardware in outdoor environment
-
 ## Done
 - [x] build first prototype
 - [x] check hardware (first prototype)
+- [x] check runtime with 18650 battry - see comments in https://github.com/lh84/moisture_sensor_esp12/issues/3
+- [x] test hardware in outdoor environment
 
 
 [1]: https://www.mikrocontroller.net/topic/335407
